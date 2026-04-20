@@ -2,6 +2,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--Jag la in nedanstående rad enligt Wout-videons instruktioner för att få en XML-plugin att funka i vscode, men den funkade inte... /Ellinor-->
+<!-- Som Mikael påpekar i den andra filen reagerar programmet också med röda linjer på facsimile-elementen -->
+<!--<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="application/xml-dtd"?>-->
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
