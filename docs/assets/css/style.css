@@ -78,10 +78,24 @@ main {
   margin: 2rem;
 }
 
-img {
-  width: 30rem;
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.image__large {
+  max-width: 50%;
   height: auto;
-  padding: 5px;
+  margin: 2rem;
+}
+
+.image__small {
+  max-width: 20rem;
+  height: auto;
+  margin: 1rem;
 }
 
 .container {
