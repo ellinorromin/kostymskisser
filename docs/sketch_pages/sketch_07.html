@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kostymskisser</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!--EN MALL FÖR FÖR HUR SIDAN FÖR VARJE ENSKILD SKISS KAN SE UT-->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html">Startsida</a>
+        </li>
+        <li>
+          <a href="about.html">Om projektet</a>
+        </li>
+        <li>
+          <a href="sketches.html">Kostymskisserna</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Sketch 7</h1>
+      <!--ÄNDRA HÄR-->
+      <p>
+        Lite grundläggande information om bilden? Eller så skriver vi ingenting
+        här utan lämnar det till metadatan längre ned.
+      </p>
+      <div class="img-zoom-container">
+        <img
+          id="myimage"
+          width="600px"
+          height="auto"
+          src="/docs/assets/img/costume_sketches/livet_pa_landet_07_01.jpg"
+        />
+        <!--OCH HÄR-->
+        <div id="myresult" class="img-zoom-result"></div>
+      </div>
+      <div class="img-zoom-container">
+        <img
+          id="myimage"
+          width="600px"
+          height="auto"
+          src="/docs/assets/img/costume_sketches/livet_pa_landet_07_02.jpg"
+        />
+        <!--OCH HÄR-->
+        <div id="myresult" class="img-zoom-result"></div>
+      </div>
+      <h2>Metadata</h2>
+      <p>Lite fint utrymme för metadata!</p>
+    </main>
+    <footer>Copyright filminstitutet XXXX</footer>
+    <script>
+      imageZoom("myimage", "myresult");
+    </script>
+  </body>
+</html>

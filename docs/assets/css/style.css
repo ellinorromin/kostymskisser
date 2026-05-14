@@ -123,6 +123,10 @@ article {
   margin: 1rem;
 }
 
+a .image__small:hover {
+  opacity: 0.3;
+}
+
 .notes_gallery {
   display: flex;
   flex: 25%;
@@ -140,6 +144,7 @@ article {
   vertical-align: middle;
   width: 100%;
   flex-direction: column;
+  justify-content: space-between;
   padding: 5px;
 }
 
