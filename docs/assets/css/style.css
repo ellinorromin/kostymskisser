@@ -23,6 +23,14 @@
   margin: 2rem;
 }
 
+.metadata_section {
+  padding: 1rem 3rem;
+}
+
+.metadata_section h4 {
+  font-style: italic;
+}
+
 aside {
   background-color: dodgerblue;
   border: 2px;
@@ -117,6 +125,12 @@ article {
   margin: 2rem;
 }
 
+.column a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image__small {
   max-width: 20rem;
   height: auto;
@@ -148,23 +162,21 @@ a .image__small:hover {
   padding: 5px;
 }
 
-/*
 @media only screen and (max-width: 770px) {
   .container {
     display: flex;
     flex-direction: column;
   }
 }
-*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .column {
     flex: 100%;
     max-width: 100%;
