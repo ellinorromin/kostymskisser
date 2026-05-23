@@ -27,6 +27,20 @@
   margin: 2rem;
 }
 
+.align_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align_images img {
+  margin: 0.5rem;
+}
+
+.align_images div {
+  max-width: 50%;
+}
+
 .metadata_section {
   padding: 1rem 3rem;
 }
