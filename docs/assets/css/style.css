@@ -95,6 +95,14 @@ footer {
   text-decoration: underline;
 }
 
+p a {
+  color: black;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
