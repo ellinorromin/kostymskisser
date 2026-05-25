@@ -1,7 +1,8 @@
 //Nedanstående kod är, med vissa modifieringar, hämtad från w3schools
 
-console.log("hej hej!");
 function imageZoom(imgID, resultID) {
+  //console log för att kolla om funktionen körs
+  console.log("hej hej!");
   //Etablerar variabler som ska användas
   let img, lens, result, cx, cy;
   img = document.getElementById(imgID); //hämtar vilken <img> vi jobbar med
