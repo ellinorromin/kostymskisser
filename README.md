@@ -3,5 +3,5 @@ Det här är ett digitaliseringsprojekt för bevarande av kostymskisser från fi
 Då masterfilerna var för stora för att ladda upp på GitHub finns de på Google Drive: https://drive.google.com/drive/folders/1AMaq9IfCWHoXnTrCVuQG0dHchFuzJffi?usp=drive_link
 
 Maria Eilersen
-Iris Landar
+Iris Landar Lygren
 Ellinor Romin
